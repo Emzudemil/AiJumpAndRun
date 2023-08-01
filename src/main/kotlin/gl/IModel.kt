@@ -1,0 +1,5 @@
+package gl
+
+interface IModel
+{
+}
