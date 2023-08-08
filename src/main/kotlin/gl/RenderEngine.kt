@@ -8,7 +8,7 @@ class RenderEngine(width: Int, height: Int, owner: Window)
 	private val gameFrameBuffer			: FrameBuffer	= FrameBuffer(width, height)
 	private val characterFrameBuffer	: FrameBuffer	= FrameBuffer(width, height)
 	private val uiFrameBuffer			: FrameBuffer	= FrameBuffer(width, height)
-	val 		graphicsRenderer		: IRenderer		= `2dRenderer`()
+	val 		graphicsRenderer		: IRenderer		= GraphicRenderer()
 
 	fun render(delta: Float)
 	{
